@@ -12,7 +12,7 @@ THIS STUFF IS IN ALPHA MODE. NOT SUITABLE FOR PRODUCTION RIGHT NOW.
 License
 -------
 
-Copyright (c) 2009, 2010, 2011 Arun Agrawal
+Copyright (c) 2011 Arun Agrawal
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
