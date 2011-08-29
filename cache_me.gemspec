@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = CacheMe::VERSION
   s.authors     = ["Arun Agrawal"]
   s.email       = ["arunagw@gmail.com"]
-  s.homepage    = "http://cacheme.rubyrockers.com"
+  s.homepage    = "https://github.com/arunagw/cache_me"
   s.summary     = %q{Cache your objects into any cache store}
   s.description = %q{CacheMe allows you to cache objects of activerecord}
 
@@ -17,8 +17,9 @@ Gem::Specification.new do |s|
   s.add_dependency("activerecord", ["~> 3.0"])
 
   s.add_development_dependency("rdoc", ["~> 3.5.0"])
-  s.add_development_dependency("sqlite3")
-  
+  s.add_development_dependency("sqlite3", ["~> 1.3.4"])
+  s.add_development_dependency("mocha", ["~> 0.9.12"])
+  s.add_development_dependency("rspec", ["~> 2.6"])  
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
