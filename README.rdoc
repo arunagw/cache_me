@@ -18,8 +18,11 @@ THIS STUFF IS IN ALPHA MODE. NOT SUITABLE FOR PRODUCTION RIGHT NOW.
 2. You can cache methods like
 	
 	User.cached(:first)
+	
 	User.cached(:all)
+	
 	User.cached(:last)
+	
 
 Your cache_store can be anything for Rails. 
 
