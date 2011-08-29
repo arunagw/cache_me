@@ -9,6 +9,20 @@ CacheMe is Rails Gem to support Object caching in Rails.
 
 THIS STUFF IS IN ALPHA MODE. NOT SUITABLE FOR PRODUCTION RIGHT NOW.
 
+== Usage
+
+1. Modify your Model and add:
+	
+	cache_me
+
+2. You can cache methods like
+	
+	User.cached(:first)
+	User.cached(:all)
+	User.cached(:last)
+
+Your cache_store can be anything for Rails. 
+
 ==License
 
 Copyright (c) 2011 Arun Agrawal
