@@ -3,3 +3,4 @@
 Gemfile.lock
 pkg/*
 cache_me.sqlite3
+doc
