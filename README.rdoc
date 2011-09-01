@@ -6,9 +6,6 @@
 
 CacheMe is Rails Gem to support Object caching in Rails.
 
-
-THIS STUFF IS IN ALPHA MODE. NOT SUITABLE FOR PRODUCTION RIGHT NOW.
-
 == Usage
 
 1. Modify your Model and add:
